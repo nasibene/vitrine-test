@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.main-content {
+  min-height: calc(
+    100vh - 150px
+  ); // Ajuste selon la taille de ton header/footer
+  padding: 2rem;
+}
