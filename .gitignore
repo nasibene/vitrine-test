@@ -1,0 +1,33 @@
+# Angular build files
+/dist/
+/out-tsc/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+/src/environments/environment*.ts
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled SCSS cache
+.sass-cache
+
+# Angular cache
+.angular/cache/
+
+# Optional: GitHub Pages output folder if deploying to gh-pages
+/docs/
