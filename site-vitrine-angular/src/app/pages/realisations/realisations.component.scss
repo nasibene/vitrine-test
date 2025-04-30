@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
+    padding: 0;
 
     .realisation-card {
       background: #f9f9f9;
@@ -32,20 +33,20 @@
 
       img {
         width: 100%;
-        height: 200px;
+        height: auto;
         object-fit: cover;
       }
 
       h3 {
-        font-size: 1.5rem;
-        margin: 1rem 0 0.5rem;
+        font-size: 1.3rem;
+        margin: 1rem;
         color: #007bff;
       }
 
       p {
         font-size: 1rem;
         color: #555;
-        padding: 0 1rem 1.5rem;
+        margin: 0 1rem 1.5rem;
       }
 
       &:hover {
