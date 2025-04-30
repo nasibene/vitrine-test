@@ -20,11 +20,14 @@
 
   .realisations-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
-    padding: 0;
+    padding: 0 1rem;
+    place-items: center;
 
     .realisation-card {
+      width: 100%;
+      max-width: 400px;
       background: #f9f9f9;
       border-radius: 12px;
       overflow: hidden;
@@ -53,6 +56,13 @@
         transform: translateY(-5px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
       }
+    }
+  }
+
+  // Optionnel : renforce une seule colonne sur très petit écran
+  @media (max-width: 480px) {
+    .realisations-grid {
+      grid-template-columns: 1fr;
     }
   }
 }
